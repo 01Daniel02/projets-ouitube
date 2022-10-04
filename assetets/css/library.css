@@ -1,0 +1,36 @@
+.library-item{
+    width: 400px;
+    cursor: pointer;
+}
+.library-item:hover{
+    background-color: #efefef;
+    border-radius: 20px;
+}
+.library-item .library-video-poster img {
+    width: 100%;
+    border-radius: 20px;
+    height: 250px;
+}
+.video-title{
+    font-weight: bold;
+}
+.owner-video-fullname{
+    color: gray;
+}
+.owner-video-fullname:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.vide-meta-wiew::after{
+    content: " . ";
+}
+.library-video-meta {
+    height: 100px;
+}
+.owner-meta-data{
+    color: gray;
+}
+.owner-meta-data:hover{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
